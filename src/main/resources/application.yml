@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/project
     username: root
-    password: sv03124
+    password: password
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -13,6 +13,6 @@ spring:
 
 myapp:
   openapi:
-    api-key: 984f4bdc2ca8bd8fbfdb4ee225ba8abe
+    api-key: api-key
 
 
